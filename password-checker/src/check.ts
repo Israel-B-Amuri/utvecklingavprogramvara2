@@ -1,7 +1,7 @@
 export function checkPassword(element:HTMLDivElement) {
 
   element.innerHTML = `
-    <label>
-    </label>
+    <input placeholder='Write password here'>
+    <button>Check</button>
   `
 }
